@@ -9,6 +9,13 @@
 ```
 
 
+* axis2 라이브러리 설치
+ - http://axis.apache.org/axis2/java/core/download.cgi
+```
+# cp -r axis2-1.6.3/lib .
+```
+
+
 * 빌드
 ```
 $ javac -cp `find * -name "*.jar" | tr "\n" ":"` -Xlint:unchecked -d . src/*.java
